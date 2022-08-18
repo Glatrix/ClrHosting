@@ -13,8 +13,12 @@ namespace ISpace
     {
         public static int IMain(string args)
         {
-            Console.WriteLine("\n[CodeInject] ~~Hello from C#!!!~~");
+            AllocConsole(); //Open a console window from the same process.
+            Console.WriteLine("<_C# Loaded_>"); //Proof its working.
             return 0;
         }
+
+        [DllImport("kernel32")]
+        static extern bool AllocConsole();
     }
 }
