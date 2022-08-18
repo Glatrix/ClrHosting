@@ -8,3 +8,23 @@ static const LPCWSTR Method = L"IMain"; //method name
 static const LPCWSTR Param = L"It works!!"; //string paramater (if applicable)
 ```
 Put the C# dll, and the Clr hosting dll into the same folder.
+
+<h2>C# Exmaple</h2>
+```
+namespace ISpace
+{
+    public class IClass
+    {
+        public static int IMain(string args)
+        {
+            AllocConsole(); //Open a console window from the same process.
+            Console.WriteLine("<_C# Loaded_>"); //Proof its working.
+            return 0;
+        }
+
+        [DllImport("kernel32")]
+        static extern bool AllocConsole();
+    }
+}
+
+```
