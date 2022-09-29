@@ -11,7 +11,7 @@
 
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
 
-static const LPCWSTR Assembly = L"\\CodeInject.dll"; //dllname.dll
+static const LPCWSTR Assembly = L"\\CodeInject.dll"; //dllname.dll (Needs To Start With '\\') (Can also be inside a folder, eg '\\Folder\\dllname.dll')
 static const LPCWSTR Class = L"ISpace.IClass"; //namespace.class
 static const LPCWSTR Method = L"IMain"; //method name
 static const LPCWSTR Param = L"It works!!"; //string paramaters
