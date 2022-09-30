@@ -2,6 +2,7 @@
 Clr Injection for x64 and x86
 
 <h2>Clr loader</h2>
+(Only injects .NET Framework dlls)
 
 ```
 static const LPCWSTR Assembly = L"\\CSharp.dll"; //dllname.dll (eg \\FolderName\\CSharp.dll
