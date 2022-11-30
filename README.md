@@ -1,3 +1,5 @@
+https://discord.gg/X9gdzuJBAZ
+
 # ClrHosting
 Clr Injection for x64 and x86
 
