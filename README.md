@@ -1,4 +1,10 @@
-Want a mod loader like this? --> https://github.com/Glatrix/CeLeRy
+Want a mod loader like this? Try CeLeRy, 
+A Lightweight .NET CLR mod loader currently
+supporting .NET 8.0 --> https://github.com/Glatrix/CeLeRy
+
+
+
+
 
 
 
